@@ -105,6 +105,11 @@ PRODUCT_PACKAGES += \
     libalsa-intf \
     libaudioutils
 
+# Sound firmware
+PRODUCT_COPY_FILES += \
+    device/lge/l0/prebuilt/etc/firmware/wcd9310_anc.bin:/system/etc/firmware/wcd9310/wcd9310_anc.bin \
+    device/lge/l0/prebuilt/etc/firmware/wcd9310_mbhc.bin:/system/etc/firmware/wcd9310/wcd9310_mbhc.bin
+
 # Graphics
 PRODUCT_PACKAGES += \
     lights.msm8960 \
