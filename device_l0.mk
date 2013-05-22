@@ -168,7 +168,7 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.sensor.compass.xml:system/etc/permissions/android.hardware.compass.xml
 
 # GPS config
-PRODUCT_COPY_FILES += device/common/gps/gps.conf_AS:system/etc/gps.conf
+PRODUCT_COPY_FILES += device/lge/l0/prebuilt/etc/gps.conf:system/etc/gps.conf
 
 # Media config
 PRODUCT_COPY_FILES += \
